@@ -1,0 +1,19 @@
+{
+    "name":"vendor/ventch",
+    "description": "Full Stack PHP Developer",
+    "minimum-stability": "stable",
+    "authors": [{
+        "name": "Henrique Ventura",
+        "email": "trycode2018@gmail.com",
+        "homepage": "https://upinside.com.br",
+        "role": "Developer"
+    }],
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        }
+    }
+}
